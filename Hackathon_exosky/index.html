@@ -1,0 +1,307 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatable" content="ie=edge">
+    <meta name="description" content="Explore the skies of exoplanets and their host stars">
+    <meta name="keywords" content="exoplanet, space, stars, sky, universe, astronomy">
+    <meta name="robots" content="INDEX, FOLLOW">
+    <title>EXOSKY</title>
+    
+    <!-- Google Font: Space Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" class="hr">
+</head>
+<body>
+     <!-- Header with Navigation -->
+     <header>
+        <nav>
+            <a href="index.html"><img src="nova6logo.png" alt="logo"></a>
+            
+        </nav>
+        <div class="web-name">EXOSKY</div>
+        <div class = "nav-btn-container">
+            <button class="nav-btn" onclick="goToHome()">Home</button>
+            <button class="nav-btn" onclick="goToAbout()">About Us</button>
+        </div>
+    </header>
+    <!-- Welcome Page -->
+    <div class="welcome" id="welcomePage">
+        <h1>WELCOME TO EXOSKY WORLD</h1>
+        <div class="welcome-text">
+            Discover the wonders of exoplanets and their distant stars!<br> 
+            Join us on a journey through the cosmos as we uncover the mysteries of alien worlds.
+        </div>
+        <button class="explore-btn" onclick="explorePage()">Explore</button>
+    </div>
+    <!-- About Us Page -->
+    <div class="about-page" id="aboutPage">
+        <h2>ABOUT EXOSKY</h2>
+        <p>At EXOSKY, we are passionate about exploring the wonders of the universe, especially the distant worlds of exoplanets. Our mission is to bring the excitement of astronomy and space exploration to everyone through an immersive platform that showcases the skies of these alien worlds. Our team is dedicated to educating and inspiring the next generation of astronomers by sharing fascinating facts, breathtaking visuals, and interactive experiences.</p>
+        <p>Join us on this incredible journey as we continue to learn more about the cosmos and our place within it!</p>
+        <h2>TEAM NOVA 6</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Skills</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>IQRA ASAD</td>
+                    <td>Full Stack Developer</td>
+                    <td>JavaScript, HTML, CSS, Node.js</td>
+                </tr>
+                <tr>
+                    <td>KISSA TAYYABA</td>
+                    <td>Frontend Developer</td>
+                    <td>Python, CSS, HTML</td>
+                </tr>
+                <tr>
+                    <td>SHAWANA AHSAN</td>
+                    <td>Frontend And Python Developer</td>
+                    <td>Python, Django, JavaScript</td>
+                </tr>
+                <tr>
+                    <td>JAVERIA SIDDIQUI</td>
+                    <td>System Analyst And Programmer</td>
+                    <td>SQL, Java, System Analysis</td>
+                </tr>
+                <tr>
+                    <td>MALIHA RASHID</td>
+                    <td>Graphic Designer And Content Writer</td>
+                    <td>Adobe Suite, Content Strategy</td>
+                </tr>
+               
+            </tbody>
+        </table>
+        <h2>OUR TEAM MISSION AND VISION</h2>
+        <h3>MISSION:</h3>
+        <P>Our mission is to create Exosky as a platform where people can easily explore exoplanets and their discoveries. We want to ignite a passion for astronomy and space exploration, enabling users to understand the mysteries of the universe.</P>
+        <h3>VISION:</h3>
+        <P>Our vision is for Exosky to inspire people worldwide to explore space. We aim for our app to be a trusted resource that is accessible to everyone. With Team Nova6, we are dedicated to making this dream a reality!</P>
+        <button class="about-back-btn" onclick="goBackFromAbout()">Back</button>
+    </div>
+
+
+    <!-- Exoplanet Page -->
+    <div class="exoplanet-page" id="exoplanetPage">
+        <h1 class="exoplanet-header"><b>EXPLORE NEW HORIZON</b></h1>
+        <p style="color:rgb(235,240,235); text-align:center; font-size:1.2rem;"><strong>Explore distant exoplanets and their host stars. Learn fascinating facts and visualize these alien worlds' skies. Start exploring now!</strong></p>
+
+        <h2 style="color:white; text-align:center;"><b>SOME KNOWN EXOPLANETS</b></h2>
+        <table>
+            <tr>
+                <th>
+                    <details>
+                    <summary>Exoplanet</summary>
+                    Exoplanets are planets that orbit stars outside our solar system.
+                    </details>
+                </th>
+                <th>
+                    <details>
+                    <summary>Host Star</summary>
+                    A host star is the star around which an exoplanet orbits.
+                    </details>
+                </th>
+                <th>
+                    <details>
+                    <summary>Distance (light-years)</summary>
+                    A light-year represents the distance light travels in one year.
+                    </details>
+                </th>
+                <th>
+                    <details>
+                    <summary>Discovery Year</summary>
+                    The year when an exoplanet was first detected.
+                    </details>
+                </th>
+                <th>
+                    <details>
+                    <summary>Characteristics</summary>
+                    Information such as size, composition, and habitability.
+                    </details>
+                </th>
+                <th>
+                    <details>
+                    <summary>Image</summary>
+                    Artist's impressions or scientific visualizations.
+                    </details>
+                </th>
+                <th>
+                    <details>
+                    <summary>Night Sky</summary>
+                    Discover the constellations visible from this planet.
+                    </details>
+                </th>
+            </tr>
+            <!-- Exoplanet Rows -->
+            <tr>
+                <td>Proxima Centauri b</td>
+                <td>Proxima Centauri</td>
+                <td>4.24</td>
+                <td>2016</td>
+                <td>Located in the habitable zone; potential for liquid water.</td>
+                <td>
+                    <img src="https://orbitaltoday.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/03/Proxima-b-.jpg.webp" alt="Proxima Centauri b">
+                    <button class="explore-btn" onclick="viewImage('https://orbitaltoday.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/03/Proxima-b-.jpg.webp')">View</button>
+                </td>
+                <td><button class="explore-btn" onclick="openModal('Proxima Centauri b')">View Night Sky</button></td>
+            </tr>
+            <tr>
+                <td>Wolf-1061-c</td>
+                <td>Wolf-1061</td>
+                <td>13.8</td>
+                <td>2015</td>
+                <td>This planet lies in the star’s habitable zone and could have conditions that allow for liquid water, though its exact habitability is uncertain.</td>
+                <td>
+                    <img src="https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/08/01/11/newexoplanet.jpg">
+                    <button class="explore-btn" onclick="viewImage('https://static.independent.co.uk/s3fs-public/thumbnails/image/2015/08/01/11/newexoplanet.jpg')">View</button>
+                </td>
+                <td><button class="explore-btn" onclick="openModal('Wolf-1061-c')">View Night Sky</button></td>
+            </tr>
+            <tr>
+                <td>Gilese-667-Cc</td>
+                <td>Gilese-667</td>
+                <td>50</td>
+                <td>2012</td>
+                <td>Gliese 667 Cc is a super-Earth, which means it's larger and heavier than Earth but smaller than Uranus and Neptune. Located in the constellation Scorpius.</td>
+                <td>
+                    <img src="https://images.csmonitor.com/csm/2012/02/0220-AHABITABLE-Gliese667Cc_Earth_Mars.jpg?alias=standard_900x600">
+                    <button class="explore-btn" onclick="viewImage('https://images.csmonitor.com/csm/2012/02/0220-AHABITABLE-Gliese667Cc_Earth_Mars.jpg?alias=standard_900x600')">View</button>
+                </td>
+                <td><button class="explore-btn" onclick="openModal('Gilese-667-Cc')">View Night Sky</button></td>
+            </tr>
+            <tr>
+                <td>Barnard Star-B</td>
+                <td>Barnard's Star</td>
+                <td>6</td>
+                <td>2018</td>
+                <td>Barnard's Star b is classified as a super-Earth. It is located within the star's habitable zone, but due to its distance from its host star and its characteristics, the potential for habitability is still a subject of research.</td>
+                <td>
+                    <img src="https://c02.purpledshub.com/uploads/sites/48/2024/09/TIC-241249530-b-feature.jpg?webp=1&w=1200">
+                    <button class="explore-btn" onclick="viewImage('https://c02.purpledshub.com/uploads/sites/48/2024/09/TIC-241249530-b-feature.jpg?webp=1&w=1200')">View</button>
+                </td>
+                <td><button class="explore-btn" onclick="openModal('Barnard Star-B')">View Night Sky</button></td>
+            </tr>
+
+            
+        </table>
+
+        <!-- Back Button -->
+        <button class="back-btn" onclick="goBack()">Back</button>
+    </div>
+
+    <!-- Modal for Viewing Night Sky -->
+    <div class="modal" id="nightSkyModal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal()">Close</span>
+            <h2 id="modalTitle"></h2>
+            <p>Explore the constellations visible from this exoplanet's sky.</p>
+
+            <table class="constellation-table">
+                <thead>
+                    <tr>
+                        <th>Constellation</th>
+                        <th>Distance (light-years)</th>
+                        <th>Stars</th>
+                        <th>Image</th>
+                        <th>Star Map</th>
+                    </tr>
+                </thead>
+                <tbody id="constellationTableBody">
+                    <!-- Content populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        function explorePage() {
+            document.getElementById("welcomePage").style.display = "none";
+            document.getElementById("exoplanetPage").style.display = "block";
+        }
+
+        function goBack() {
+            document.getElementById("exoplanetPage").style.display = "none";
+            document.getElementById("welcomePage").style.display = "flex";
+        }
+        function goToHome() {
+            document.getElementById("welcomePage").style.display = "flex";
+        }
+        function goToAbout() {
+            document.getElementById("welcomePage").style.display = "none"; // Hide Welcome Page
+            document.getElementById("exoplanetPage").style.display = "none"; // Hide Exoplanet Page
+            document.getElementById("aboutPage").style.display = "block";  // Show About Page
+        }
+
+        function goBackFromAbout() {
+            document.getElementById("aboutPage").style.display = "none"; // Hide About Page
+            document.getElementById("welcomePage").style.display = "flex"; // Show Welcome Page again
+        }
+
+        function viewImage(imageUrl) {
+            window.open(imageUrl, '_blank');
+        }
+
+        // Open modal and populate constellation data
+        function openModal(planetName) {
+            const constellations = {
+                'Proxima Centauri b': [
+                    {name: 'Carina', distance: '305.76', stars: 'Canopus', imgSrc: 'https://www.star-registration.com/cdn/shop/articles/34_Kiel-des-Schiffes.jpg?v=1681394524&width=600'}, 
+                    { name: 'Crux', distance: '317', stars: 'Acrux', imgSrc: 'https://star-name-registry.com/modules/starconstpg/views/img/new/crux-map-m.jpg' }
+                ],
+                'Wolf-1061-c': [
+                    { name: 'Cassiopeia', distance: '214.2', stars: 'Scedar (Alpha cas)', imgSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREbG_AE1kJsSjSbGn1FK3BEwe9gxzv4Vb_AQ&s' },
+                    { name: 'Ursa Major', distance: '109.2', stars: 'Dubhe', imgSrc: 'https://arabiannightsrum.com/wp-content/uploads/2021/02/Ursa-major-great-bear-646x500.png' }
+                ],
+                'Gilese-667-Cc': [
+                    { name: 'Ursa Major', distance: '59', stars: 'Alkaid', imgSrc: 'https://c8.alamy.com/comp/DG73C5/the-constellation-ursa-major-star-in-the-night-sky-vector-il-DG73C5.jpg' },
+                    { name: 'Orion', distance: '524.32', stars: 'Betelgeuse', imgSrc: 'https://earthsky.org/upl/2021/09/betelgeuse-rigel-orion-1600-e1632920767546.jpg' }
+                ],
+                'Barnard Star-B': [
+                    { name: 'Lyra', distance: '19', stars: 'Vega', imgSrc: 'https://earthsky.org/upl/2022/07/Lyra-Vega-Ring-Nebula-Epsilon-Lyrae.' },
+                    { name: 'Bootes', distance: '31', stars: 'Arcturus', imgSrc: 'https://www.universetoday.com/wp-content/uploads/2008/10/Bootes.png'  }
+                    
+                ],
+            };
+
+            const tableBody = document.getElementById('constellationTableBody');
+            tableBody.innerHTML = '';
+
+            const planetConstellations = constellations[planetName] || [];
+            planetConstellations.forEach(constellation => {
+                const row = `
+                    <tr>
+                        <td>${constellation.name}</td>
+                        <td>${constellation.distance}</td>
+                        <td>${constellation.stars}</td>
+                        <td>
+                            <img src="${constellation.imgSrc}" class="constellation-image" alt="${constellation.name}">
+                            <button class="explore-btn" onclick="viewImage('${constellation.imgSrc}')">View</button>
+                        </td>
+                    </tr>
+                `;
+                tableBody.insertAdjacentHTML('beforeend', row);
+            });
+
+            document.getElementById('modalTitle').innerText = `Night Sky from ${planetName}`;
+
+document.getElementById('nightSkyModal').style.display = 'flex';
+}tById('modalTitle').innerTe
+        function closeModal() {
+            document.getElementById('nightSkyModal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>
+
+
