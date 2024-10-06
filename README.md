@@ -27,7 +27,9 @@ Our project is designed to make space accessible to everyone, regardlessof their
 4. To Collaborate: Work with educators, scientists, and space agencies to ensure that our platformstays at the cutting edge of exoplanet research and exploration.
 
 #  Target Audience:
- Students and Educators: Providing educational tools and interactive learning experiencestofostercuriosity and learning in schools and universities.  Astronomy Enthusiasts: Offering in-depth information and interactive tools for thosepassionateabout space exploration and exoplanet discovery.  General Public: Making space accessible to anyone with an interest in the cosmos, witheasy-to-understand content and engaging visuals.
+1. Students and Educators: Providing educational tools and interactive learning experiencestofostercuriosity and learning in schools and universities.
+2. Astronomy Enthusiasts: Offering in-depth information and interactive tools for thosepassionateabout space exploration and exoplanet discovery.
+3. General Public: Making space accessible to anyone with an interest in the cosmos, witheasy-to-understand content and engaging visuals.
 
 # Future Plans:
 1. Expanding the Platform: Continuously adding new features, exoplanet data, and interactivecontent based on the latest discoveries in exoplanet science.
