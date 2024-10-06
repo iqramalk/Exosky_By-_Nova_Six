@@ -6,6 +6,12 @@ EXOSKY is a web-app that focuses on exploring and understandingexoplanets—plan
 
 Through innovative 2D models, educational content, EXOSKYaimstoinspire curiosity and ignite a passion for astronomy andspacescience.We are dedicated to engaging the next generation of astronomersandspace enthusiasts by making the exploration of exoplanets accessible,exciting, and interactive.
 
+# Installation Steps
+
+1. Clone the repository: `git clone (link unavailable)
+2. Install dependencies: pip install pygame
+3. Run the application: python (link unavailable)
+
 # Key Features of the Project:
 # 1. Educational Platform:
 EXOSKY serves as a comprehensive educational tool, providing: Fascinating facts and in-depth information about the night sky of exoplanet.
